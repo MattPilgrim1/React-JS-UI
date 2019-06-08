@@ -1,0 +1,44 @@
+/* Bespoke Styling */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+
+.material-icons.md-48 {
+  font-size: 48px;
+  float: left;
+}
+
+label span {
+  padding: 10px;
+  float: left;
+}
+
+.arrow-icn {
+  font-size: 100px;
+  padding: 10pt 20pt;
+}
+
+html, body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16pt
+}
+
+.application-container, .modal-content {
+  border-radius: 10pt
+}
+
+.command {
+  color: green;
+  background: #000000;
+  padding: 10pt;
+  border-radius: 10px
+}
+
+/*Dark Mode*/
+html, body {
+  background-color: #222;
+  color: #fff;
+}
+
+.application-container, .modal-content {
+  background-color: #323232;
+  border: 2px solid #4d4d4d;
+}
